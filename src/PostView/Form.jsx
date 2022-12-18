@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './Form.css'
 import axios from "axios";
 
-const apiURL = "https://instaclone-abhi.onrender.com/post";
+const apiURL = "https://insta-backend-fo20.onrender.com/post";
 function Form({ setForm, postAdded }) {
     let [formData, setFormData] = useState({ name: '', location: '', description: '' })
     let [file, setFile] = useState(null);
